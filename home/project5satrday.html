@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <!--Head  starting-->
+  <head>
+    <title>
+    Forms
+    </title>
+  </head>
+  <body>
+    <div style=" background-color:black;">
+      <font color="white" size="5px">
+      <center>
+        <h1><i>FORMS</i></h1>
+      </center>
+      </font>
+    </div>
+    <!--First Form-->
+      <form class="" action="index.html" method="post">
+        <fieldset>
+          <legend>  <h2>Your details</h2></legend>
+            <br><br><br>
+            <label for="">Name   :   </label>
+            <input type="text" name="" value="" style="border:solid; width:18%">
+            <br><br><br>
+            <label for="">Email:</label>
+            <input type="password" name="" value="" style="border:solid; width:18% ">
+            <br><br><br>
+            <button type="submit" onclick="myFunction()" name="button" style="border:solid; width:8%">Submit</button>
+            <script>
+              function myFunction()
+                {
+                alert("Logined Succesfully");
+                }
+            </script>
+            <br><br><br>
+          </fieldset>
+      </form>
+    <br>
+    <!--Second Form-->
+      <form class="" action="index.html" method="post">
+            <fieldset>
+            <legend><h2>Your Review</h2></legend>
+            <br><br>
+            <label for="">How did you hear about us?: </label>
+            <select name="cars" style="border:solid; width:18%">
+                <option value="g">Google</option>
+                <option value="saab">whatsapp</option>
+                <option value="fiat">Freinds</option>
+                <option value="audi">Advertisments</option>
+            </select>
+            <br><br><br>
+            <label for="">Would you visit again?:</label>
+            <br>
+              <input type="radio" name="gender" value="male" checked> Yes
+              <input type="radio" name="gender" value="female"> No
+              <input type="radio" name="gender" value="other"> Maybe
+            <br><br><br>
+            <label for="">Comments</label>
+            <br>
+            <textarea rows="4" cols="50" style="border:solid; width:18%">
+            </textarea>
+            <input type="checkbox" name="vehicle1" value="Bike"> Sign me up for email updates:<br>
+            <br><br>
+            <button type="submit" onclick="myFunction()" name="button" style="border:solid; width:8%">Submit Review</button>
+            <script>
+              function myFunction()
+                {
+                alert("Logined Succesfully");
+                }
+            </script>
+            <br><br><br>
+              </fieldset>
+      </form>
+
+  </body>
+</html>
