@@ -1,0 +1,171 @@
+ody, html {
+  width: 100%;
+  height: 250%;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif !important;
+      }
+.firstdiv
+{
+  width:100%;
+  height:50%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding-left: 11%;
+  padding-bottom: 2%;
+  font-weight: 800;
+  text-align: left;
+
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: black;
+  padding-left: 11%;
+  padding-top: 2%;
+}
+.img1
+{
+background-repeat: no-repeat;
+}
+.logo{
+width:20%;
+background-color: red;
+}
+.seconddiv
+{
+  height:10%;
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-right: 20%;
+  font-size: 30px;
+}
+.thirddiv
+{
+  width:80%;
+  height:100%;
+  padding-top: 2%;
+  padding-left: 11%;
+  background-color: white;
+
+}
+.column1{
+  float: left;
+  width: 62%;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  background-color:white;
+    border: 1px solid #CFD5D2 ;
+    background-color: #ECF0EE ;
+}
+.column2{
+  float: right;
+  width: 25%;
+  padding: 10px;
+  padding-left: 2%;
+  height: 250px; /* Should be removed. Only for demonstration */
+  background-color: blue;
+  padding-right: 4%;
+  border: 1px solid #CFD5D2 ;
+  background-color: #ECF0EE ;
+}
+
+/* Clear floats after the columns */
+.thirddiv:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.forthdiv
+{
+  height:15%;
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-right: 20%;
+  font-size: 30px;
+  background-color: white;
+}
+.fifthdiv
+{
+  width:100%;
+  height:581px;
+  text-align: center;
+  color: black;
+  position: relative;
+}
+.topleft1 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: black;
+  padding-left: 11%;
+  padding-top: 2%;
+  width:23%;
+  text-align: left;
+}
+.top-right1 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: white;
+  width:10%;
+  height:85%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  text-align: left;
+}
+
+.sixthdiv1
+{
+  height: 250px;
+  background-color:  #ECF0EE;
+}
+.seventhdiv
+{
+  position: relative;
+  height:400px;
+  background-color:#ECF0EE ;
+}
+.topleft11 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: black;
+  padding-left: 11%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  width:23%;
+  text-align: left;
+}
+.top-right11 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color: #ECF0EE;
+  width:2%;
+  height:75%;
+  padding-right: 30%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  text-align: left;
+}
+.top-right111 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background-color:#ECF0EE;
+  width:8%;
+  height:75%;
+  padding-right: 40%;
+  padding-bottom: 2%;
+  padding-left: 6%;
+  text-align: left;
+}
