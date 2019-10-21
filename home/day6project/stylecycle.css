@@ -1,0 +1,162 @@
+/*css starts*/
+day5, html/*main division starts*/
+{
+  width: 90%;
+  height: 120%;
+  margin: 0;
+}
+.frst/*first division starts*/
+{
+  margin-top: 1px;
+  width: 100%;
+  padding-left: 10%;
+}
+.header1/*header division starts*/
+{
+  width: 114%;
+  height:50%;
+  background-image: url('images/bg-header.jpg');
+  color: white;
+  margin-bottom: 1%;
+  padding-left: 0%;
+}
+.logoimg/*logo division division starts*/
+{
+  padding-left: 10.000001%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+.headertriangle/* triangle heade starts*/
+{
+  padding-left:0.5px;
+}
+.homebar/*homebar division starts*/
+{
+  background-color: ;
+  width:17%;
+  padding-left: 4%;
+  float: right;
+  padding-top: 3%;
+  padding-right: 20%;
+  background-image: url('images/bg-header.jpg');
+  text-decoration: none;
+  color: #C1C0A1;
+}
+.a1
+{
+  text-decoration: none;
+  color: #C1C0A1;
+}
+.scnd/*second division starts*/
+{
+  margin-top: -50px;
+  margin-left: 200px;
+  position: relative;
+}
+.third/*third division starts*/
+{
+  margin-left: 600px;
+  position:relative;
+}
+.for
+{
+  margin-left: 219px;
+  margin-top: -200px;
+  position: relative;
+}
+.five/*fifth division starts*/
+{
+  margin-left: 289px;
+  margin-top: -320px;
+  position: relative;
+}
+.spe
+{
+  margin-left: 810px;
+  margin-top: -300px;
+  position: relative;
+
+}
+.more
+{
+  margin-left:200px;
+  margin-top: 80px;
+  position: absolute;
+}
+.pic
+{
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 150px;
+}
+.picz
+{
+  position: relative;
+  margin-left: 420px;
+  margin-top: 168px;
+}
+.digi
+{
+  position: absolute;
+  margin-left: 935px;
+  margin-top: -127px;
+}
+.cycle/*cycle image division starts*/
+{
+  position: absolute;
+  margin-left: 680px;
+  margin-top: -130px;
+}
+.aa
+{
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 1px;
+}
+.bb
+{
+  position: absolute;
+  margin-left: 420px;
+  margin-top: 1px;
+}
+.zz
+{
+  position: absolute;
+  margin-left: 670px;
+  margin-top: 1px;
+}
+.cc
+{
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 1px;
+}
+.lastdiv/*footer division starts*/
+{
+  background-color: yellow;
+  position: relative;
+   left: 0;
+   bottom: 0;
+   width: 111.5%;
+   color: white;
+   text-align: center;
+   background-image: url('images/bg-header.jpg');
+   text-decoration: none;
+   margin-top: 200px;
+}
+.a2
+{
+  padding-bottom: 2%;
+  padding-left: 40%;
+  padding-top: 2%;
+  width: 60%;
+  height: 10%;
+  text-decoration: none;
+}
+.footerclass
+{
+  padding-bottom: 20%;
+  padding-top: 20%;
+   text-decoration: none;
+}
+/*css ends*/
