@@ -1,0 +1,66 @@
+<!Doctpe html>
+<html>
+<head>
+<title>Array Sample</title>
+
+<script>
+function validate()
+{
+var unames=["admin","agent","user","client"];
+var passwords=["Admin*123","Agent*123","User*123","Client*123"];
+uname=document.getElementById("usertxt").value;
+pass=document.getElementById("passtxt").value;
+var flag=0;
+for(var i=0;i<4;i++)
+{
+//if((uname.localeCompare(unames[i]))&&(passwords[i].localeCompare(pass)))
+if((uname==unames[i])&&(passwords[i]==pass))
+{
+flag=1;
+//alert('login suuccesfull');
+
+console.log(uname);
+console.log(unames[i]);
+console.log(pass);
+console.log(passwords[i]);
+
+}
+/*else{
+flag=0;
+}*/
+console.log(flag);
+}
+if(flag==1)
+{
+alert('login suuccessfull');
+console.log(uname);
+}
+else
+alert('login failed');
+
+}
+</script>
+</head>
+<body>
+<div class="main">
+<div class="main left">
+<br><br>
+<label style="color: #707070;;   font-family: 'Open Sans', sans-serif;
+    font-size: 28px;">Enter credentials</label>
+<br><br>
+<!--<form name="frm1" method="get" action="list.html" >-->
+<input type="text" name="usrtxt" id="usertxt" required="required" placeholder="email" >
+<!--<br><br>-->
+<input type="text" name="passtxt" id="passtxt" required="required" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+<!--<br><br>-->
+<input type="submit" class="submit" name="subbtn" value="Login" onclick="validate()" >
+<!--<br><br>--><br><br>
+<a href="#" class="forgot">Forgot password?</a>
+<!--</form>-->
+</div>
+
+
+<div>
+
+</body><!--body tag ending-->
+</html>
